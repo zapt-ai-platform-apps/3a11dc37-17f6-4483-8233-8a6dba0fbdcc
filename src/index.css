@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Custom Arabic font support */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;600;700&display=swap');
+
+body {
+  font-family: 'Noto Naskh Arabic', serif;
+  direction: rtl;
+}
+
+/* Custom select styles */
+.react-select__control {
+  border: 2px solid #3B82F6 !important;
+  border-radius: 8px !important;
+}
+
+.react-select__menu {
+  text-align: right !important;
+}
